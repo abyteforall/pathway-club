@@ -7,6 +7,7 @@
   padding: 15px 20px;
   background-color: transparent;
   margin-top: 10px;
+  animation: fadeInUp 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s both;
 }
 
 .nav-left {
