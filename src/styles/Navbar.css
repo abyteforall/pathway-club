@@ -1,0 +1,36 @@
+@import './colors.css';
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-right {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-link {
+  background-color: var(--primary-green);
+  color: var(--primary-cream);
+  text-decoration: none;
+  padding: 10px 24px;
+  border-radius: 0;
+  font-weight: 1000;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.nav-link:hover {
+  background-color: var(--hover-green);
+}
