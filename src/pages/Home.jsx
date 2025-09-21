@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import Navbar from '../components/Navbar';
-import '../styles/Home.css';
+import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import "../styles/Home.css";
 
 function Home() {
   return (
@@ -10,26 +10,34 @@ function Home() {
         <div className="page-content">
           <div className="club-title">
             <div className="title-banner">
-              <span className="title-the">THE</span>
+              <span className="title-inner">THE</span>
             </div>
             <h1 className="title-path">PATH</h1>
             <h2 className="title-club">CLUB</h2>
           </div>
           <div className="calendar-hint">
             <div className="calendar-arrow"></div>
-            <p className="calendar-text">Find out when our meetings are here!</p>
+            <p className="calendar-text">
+              Find out when our meetings are here!
+            </p>
           </div>
           <div className="button-container">
             <div className="button-wrap">
-              <Link to="/contact" className="contact-button">CONTACT</Link>
+              <Link to="/contact" className="arrow-nav-button">
+                CONTACT
+              </Link>
             </div>
             <div className="button-wrap">
-              <Link to="/join" className="join-button">JOIN</Link>
+              <Link to="/join" className="arrow-nav-button">
+                JOIN
+              </Link>
             </div>
           </div>
         </div>
       </div>
-      <Link to="/job-hub" className="job-hub-button">JOB HUB</Link>
+      <Link to="/job-hub" className="job-hub-button">
+        JOB HUB
+      </Link>
     </>
   );
 }

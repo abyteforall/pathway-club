@@ -1,0 +1,89 @@
+@import "./colors.css";
+
+.job-hub-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s both;
+}
+
+.job-hub-content {
+  background-color: var(--primary-cream);
+  width: 92%;
+  height: 90%;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.job-hub-banner {
+  flex: 0;
+  width: fit-content;
+  height: fit-content;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both;
+}
+
+.job-hub-inner {
+  align-self: center;
+  justify-self: center;
+  background-color: var(--primary-green);
+  border: 16px solid var(--secondary-green);
+  height: 80%;
+  width: 100%;
+  border-radius: 64px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.job-hub-inner a {
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.job-hub-inner a:hover {
+  transform: scale(1.05);
+}
+
+.job-hub-type {
+  border: 10px solid var(--primary-cream);
+  background-color: var(--secondary-green);
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.job-hub-type h2 {
+  font-size: 32px;
+  color: var(--primary-cream);
+}
+
+.job-hub-inner a:nth-child(1) .job-hub-type {
+  animation-delay: 0.2s;
+}
+
+.job-hub-inner a:nth-child(2) .job-hub-type {
+  animation-delay: 0.4s;
+}
+
+.job-hub-inner a:nth-child(3) .job-hub-type {
+  animation-delay: 0.6s;
+}
+
+.job-hub-btn-rotate-wrapper {
+  transform: rotate(-10deg);
+  position: absolute;
+  bottom: 15px;
+  left: -90px;
+}
+
+.job-hub-home-button {
+  animation: slideInFromLeft 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both;
+}
