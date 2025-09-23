@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/Calendar.css";
 import { Link } from "react-router-dom";
 
@@ -25,7 +26,7 @@ function Calendar() {
               src="https://calendar.google.com/calendar/embed?src=thepathclub25%40gmail.com&ctz=America%2FChicago"
               width="100%"
               height="100%"
-              frameborder="0"
+              frameBorder="0"
               scrolling="no"
             ></iframe>
           </div>
