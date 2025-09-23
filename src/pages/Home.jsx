@@ -23,14 +23,20 @@ function Home() {
           </div>
           <div className="button-container">
             <div className="button-wrap">
-              <Link to="/contact" className="arrow-nav-button">
+              <a
+                href="mailto:thepathclub25@gmail.com "
+                className="arrow-nav-button"
+              >
                 CONTACT
-              </Link>
+              </a>
             </div>
             <div className="button-wrap">
-              <Link to="/join" className="arrow-nav-button">
+              <a
+                href="https://www.google.com/url?sa=j&url=https%3A%2F%2Fforms.gle%2FihzGmLp3Mw2LSV17A&uct=1722691979&usg=8pYW5YpjgcS1NDqZWVMgZV_QDZQ.&source=editors"
+                className="arrow-nav-button"
+              >
                 JOIN
-              </Link>
+              </a>
             </div>
           </div>
         </div>

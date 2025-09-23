@@ -1,0 +1,32 @@
+[
+  {
+    "title": "AI Research Assistant",
+    "location": "MIT",
+    "description": "Assist in cutting-edge artificial intelligence research.",
+    "link": "https://example.com/research/ai-assistant"
+  },
+  {
+    "title": "Genetics Lab Intern",
+    "location": "Johns Hopkins",
+    "description": "Support research in genetics and molecular biology.",
+    "link": "https://example.com/research/genetics"
+  },
+  {
+    "title": "Climate Change Analyst",
+    "location": "Columbia University",
+    "description": "Analyze climate data and environmental trends.",
+    "link": "https://example.com/research/climate"
+  },
+  {
+    "title": "Quantum Computing Fellow",
+    "location": "Caltech",
+    "description": "Participate in quantum computing experiments and theory.",
+    "link": "https://example.com/research/quantum"
+  },
+  {
+    "title": "Neuroscience Researcher",
+    "location": "UCLA",
+    "description": "Study the brain and nervous system in lab settings.",
+    "link": "https://example.com/research/neuroscience"
+  }
+]

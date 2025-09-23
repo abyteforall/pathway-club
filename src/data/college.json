@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Computer Science Program",
+    "location": "Stanford University",
+    "description": "A four-year undergraduate program in computer science.",
+    "link": "https://example.com/college/cs-program"
+  },
+  {
+    "title": "Business Administration",
+    "location": "Harvard University",
+    "description": "Learn business fundamentals and leadership skills.",
+    "link": "https://example.com/college/business-admin"
+  },
+  {
+    "title": "Psychology Major",
+    "location": "Yale University",
+    "description": "Explore the human mind and behavior in depth.",
+    "link": "https://example.com/college/psychology"
+  },
+  {
+    "title": "Mechanical Engineering",
+    "location": "Georgia Tech",
+    "description": "Hands-on engineering and design experience.",
+    "link": "https://example.com/college/mechanical"
+  },
+  {
+    "title": "Fine Arts",
+    "location": "RISD",
+    "description": "Develop your artistic skills in a creative environment.",
+    "link": "https://example.com/college/fine-arts"
+  },
+  {
+    "title": "Environmental Science",
+    "location": "UC Berkeley",
+    "description": "Study the environment and sustainability.",
+    "link": "https://example.com/college/environmental"
+  }
+]
