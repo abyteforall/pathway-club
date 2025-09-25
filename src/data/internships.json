@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Marketing Intern",
+    "location": "San Francisco, CA",
+    "description": "Support the marketing team with campaigns and analytics.",
+    "link": "https://example.com/internships/marketing"
+  },
+  {
+    "title": "Software Development Intern",
+    "location": "Seattle, WA",
+    "description": "Work on real-world software projects with experienced mentors.",
+    "link": "https://example.com/internships/software"
+  },
+  {
+    "title": "Finance Intern",
+    "location": "New York, NY",
+    "description": "Assist with financial analysis and reporting.",
+    "link": "https://example.com/internships/finance"
+  },
+  {
+    "title": "Human Resources Intern",
+    "location": "Chicago, IL",
+    "description": "Help with recruitment and employee engagement activities.",
+    "link": "https://example.com/internships/hr"
+  },
+  {
+    "title": "Design Intern",
+    "location": "Los Angeles, CA",
+    "description": "Contribute to creative design projects and branding.",
+    "link": "https://example.com/internships/design"
+  },
+  {
+    "title": "Data Science Intern",
+    "location": "Boston, MA",
+    "description": "Analyze data and build predictive models.",
+    "link": "https://example.com/internships/data-science"
+  },
+  {
+    "title": "Operations Intern",
+    "location": "Austin, TX",
+    "description": "Support daily operations and logistics.",
+    "link": "https://example.com/internships/operations"
+  }
+]

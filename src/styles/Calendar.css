@@ -1,0 +1,103 @@
+@import "./colors.css";
+
+.calendar-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s both;
+  overflow-y: hidden;
+}
+
+.calendar-content {
+  background-color: var(--primary-cream);
+  width: 92%;
+  height: 90%;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.calendar-banner {
+  flex: 0;
+  width: fit-content;
+  height: fit-content;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both;
+}
+
+.calendar-inner {
+  align-self: center;
+  justify-self: center;
+  background-color: var(--primary-green);
+  border: 16px solid var(--secondary-green);
+  height: 80%;
+  width: 100%;
+  border-radius: 64px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.calendar-inner a {
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.calendar-inner a:hover {
+  transform: scale(1.05);
+}
+
+.calendar-type {
+  border: 10px solid var(--primary-cream);
+  background-color: var(--secondary-green);
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.calendar-type h2 {
+  font-size: 32px;
+  color: var(--primary-cream);
+}
+
+.calendar-inner a:nth-child(1) .calendar-type {
+  animation-delay: 0.2s;
+}
+
+.calendar-inner a:nth-child(2) .calendar-type {
+  animation-delay: 0.4s;
+}
+
+.calendar-inner a:nth-child(3) .calendar-type {
+  animation-delay: 0.6s;
+}
+
+.calendar-reminders {
+  width: 30%;
+  color: var(--primary-cream);
+  font-size: 20px;
+}
+
+.calendar-calendar {
+  width: 50%;
+  height: 80%;
+  border: none;
+  border-radius: 32px;
+}
+
+.calendar-btn-rotate-wrapper {
+  transform: rotate(-10deg);
+  position: absolute;
+  bottom: 15px;
+  left: -90px;
+}
+
+.calendar-home-button {
+  animation: slideInFromLeft 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both;
+}

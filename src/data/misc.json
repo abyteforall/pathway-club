@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Event Organizer",
+    "location": "Austin, TX",
+    "description": "Coordinate logistics for local tech meetups.",
+    "link": "https://example.com/misc/event-organizer"
+  },
+  {
+    "title": "Podcast Host",
+    "location": "Remote",
+    "description": "Host and produce a weekly podcast on tech trends.",
+    "link": "https://example.com/misc/podcast-host"
+  },
+  {
+    "title": "Workshop Facilitator",
+    "location": "Seattle, WA",
+    "description": "Lead hands-on workshops for students and professionals.",
+    "link": "https://example.com/misc/workshop"
+  },
+  {
+    "title": "Social Media Manager",
+    "location": "Los Angeles, CA",
+    "description": "Manage social media accounts and create engaging content.",
+    "link": "https://example.com/misc/social-media"
+  },
+  {
+    "title": "Translator",
+    "location": "Remote",
+    "description": "Translate documents and communications for global teams.",
+    "link": "https://example.com/misc/translator"
+  },
+  {
+    "title": "Photography Assistant",
+    "location": "San Diego, CA",
+    "description": "Support photographers during shoots and events.",
+    "link": "https://example.com/misc/photography"
+  }
+]

@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import "../styles/Home.css";
@@ -23,14 +24,20 @@ function Home() {
           </div>
           <div className="button-container">
             <div className="button-wrap">
-              <Link to="/contact" className="arrow-nav-button">
+              <a
+                href="mailto:thepathclub25@gmail.com "
+                className="arrow-nav-button"
+              >
                 CONTACT
-              </Link>
+              </a>
             </div>
             <div className="button-wrap">
-              <Link to="/join" className="arrow-nav-button">
+              <a
+                href="https://forms.gle/ihzGmLp3Mw2LSV17A"
+                className="arrow-nav-button"
+              >
                 JOIN
-              </Link>
+              </a>
             </div>
           </div>
         </div>

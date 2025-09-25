@@ -1,0 +1,52 @@
+@import "./colors.css";
+
+.about-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s both;
+  overflow-y: hidden;
+}
+
+.about-content {
+  background-color: var(--primary-cream);
+  width: 92%;
+  height: 90%;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-banner {
+  flex: 0;
+  width: fit-content;
+  height: fit-content;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both;
+}
+
+.about-inner {
+  align-self: center;
+  justify-self: center;
+  background-color: var(--primary-green);
+  border: 16px solid var(--secondary-green);
+  height: 80%;
+  width: 100%;
+  border-radius: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-btn-rotate-wrapper {
+  transform: rotate(-10deg);
+  position: absolute;
+  bottom: 15px;
+  left: -90px;
+}
+
+.about-home-button {
+  animation: slideInFromLeft 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both;
+}

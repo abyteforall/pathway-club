@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Community Volunteer",
+    "location": "Chicago, IL",
+    "description": "Help organize local community events and outreach.",
+    "link": "https://example.com/volunteering/community"
+  },
+  {
+    "title": "Animal Shelter Helper",
+    "location": "Denver, CO",
+    "description": "Assist with animal care and adoption events.",
+    "link": "https://example.com/volunteering/animal-shelter"
+  },
+  {
+    "title": "Food Bank Volunteer",
+    "location": "Houston, TX",
+    "description": "Sort and distribute food to families in need.",
+    "link": "https://example.com/volunteering/food-bank"
+  },
+  {
+    "title": "Environmental Cleanup",
+    "location": "Portland, OR",
+    "description": "Participate in local park and river cleanups.",
+    "link": "https://example.com/volunteering/environmental"
+  },
+  {
+    "title": "Literacy Tutor",
+    "location": "Miami, FL",
+    "description": "Help children and adults improve reading skills.",
+    "link": "https://example.com/volunteering/literacy"
+  }
+]

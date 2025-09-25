@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Software Engineer",
+    "location": "Remote",
+    "description": "Develop and maintain web applications for our clients.",
+    "link": "https://example.com/jobs/software-engineer"
+  },
+  {
+    "title": "Graphic Designer",
+    "location": "New York, NY",
+    "description": "Design marketing materials and digital assets.",
+    "link": "https://example.com/jobs/graphic-designer"
+  }
+]

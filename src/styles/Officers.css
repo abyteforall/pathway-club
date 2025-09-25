@@ -1,0 +1,98 @@
+@import "./colors.css";
+
+.officers-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s both;
+  overflow-y: hidden;
+}
+
+.officers-content {
+  background-color: var(--primary-cream);
+  width: 92%;
+  height: 90%;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.officers-banner {
+  flex: 0;
+  width: fit-content;
+  height: fit-content;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both;
+}
+
+.officers-inner {
+  align-self: center;
+  justify-self: center;
+  background-color: var(--primary-green);
+  border: 16px solid var(--secondary-green);
+  height: 80%;
+  width: 100%;
+  border-radius: 64px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.officers-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.officers-type {
+  border: none;
+  background-color: var(--secondary-green);
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.officers-item h2 {
+  font-size: 32px;
+  color: var(--primary-cream);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0;
+}
+
+.officers-item h3 {
+  font-size: 24px;
+  color: var(--primary-cream);
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.officers-item:nth-child(1) .officers-type {
+  animation-delay: 0.2s;
+}
+
+.officers-item:nth-child(2) .officers-type {
+  animation-delay: 0.4s;
+}
+
+.officers-item:nth-child(3) .officers-type {
+  animation-delay: 0.6s;
+}
+
+.officers-btn-rotate-wrapper {
+  transform: rotate(-10deg);
+  position: absolute;
+  bottom: 15px;
+  left: -90px;
+}
+
+.officers-home-button {
+  animation: slideInFromLeft 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both;
+}
