@@ -6,9 +6,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-left">
-        <Link to="/officer-application" className="nav-link">
+        <a href="https://forms.gle/ihzGmLp3Mw2LSV17A" className="nav-link">
           Officer Application
-        </Link>
+        </a>
       </div>
       <div className="nav-right">
         <Link to="/calendar" className="nav-link">

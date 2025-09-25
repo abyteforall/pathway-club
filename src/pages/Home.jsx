@@ -33,7 +33,7 @@ function Home() {
             </div>
             <div className="button-wrap">
               <a
-                href="https://www.google.com/url?sa=j&url=https%3A%2F%2Fforms.gle%2FihzGmLp3Mw2LSV17A&uct=1722691979&usg=8pYW5YpjgcS1NDqZWVMgZV_QDZQ.&source=editors"
+                href="https://forms.gle/ihzGmLp3Mw2LSV17A"
                 className="arrow-nav-button"
               >
                 JOIN
