@@ -9,7 +9,16 @@ function About() {
         <div className="title-banner about-banner">
           <span className="title-inner">About Us</span>
         </div>
-        <div className="about-inner"></div>
+        <div className="about-inner">
+          <h2 className="about-text">
+            The PATH Club started from the simple question: “How can teens
+            successfully land a job?” With that, inspiration sparked to what we
+            know today. PATH is all about community, connecting and evolving to
+            become the best version of yourself. From guest speaking events to
+            one-on-one conversations, The PATH Club offers the resources needed
+            to help teens build their career now.
+          </h2>
+        </div>
       </div>
       <div className="about-btn-rotate-wrapper">
         <div className="button-wrap about-home-button">

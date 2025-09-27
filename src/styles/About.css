@@ -38,6 +38,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+}
+
+.about-text {
+  font-size: 32px;
+  color: var(--primary-cream);
+  padding: 0 20px;
+  line-height: 2;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .about-btn-rotate-wrapper {
